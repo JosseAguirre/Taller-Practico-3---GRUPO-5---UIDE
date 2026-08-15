@@ -1,5 +1,31 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de datos del proyecto (Protección de datos crudos e intermedios)
+data/raw/
+data/interim/
+
+# Nota: data/processed/ puede incluirse opcionalmente si se desea versionar el resultado final, 
+# o excluirse si se prefiere que el dataset procesado se genere únicamente al ejecutar el script.
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[codz]
 *$py.class
 
